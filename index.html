@@ -12,7 +12,7 @@
 <body>
 <!--Menu-->    
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0a3d62;">
-        <a class="navbar-brand text-danger" style="font-family:serif; font-size: 30px;" href="#">Jane Austen</a>
+        <a class="navbar-brand text-danger" style="font-family:serif; font-size: 40px;" href="#">Jane Austen</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,24 +20,24 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link text-danger font-italic; font-size: 18px;" href="#">Home <span class="sr-only ">(página atual)</span></a>
+              <a class="nav-link text-danger font-italic; font-size: 20px;" href="#Home">Home <span class="sr-only ">(página atual)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-danger font-italic; font-size: 18px;" href="#">Sobre a Autora</a>
+              <a class="nav-link text-danger font-italic; font-size: 20px;" href="#SobreAAutora">Sobre a Autora</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-danger font-italic; font-size: 18px;" href="#">Vendas</a>
+                <a class="nav-link text-danger font-italic; font-size: 20px;" href="#Vendas">Vendas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-danger font-italic; font-size: 18px;" href="#">Contatos</a>
+                <a class="nav-link text-danger font-italic; font-size: 20px;" href="#Contato">Contato</a>
               </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-danger font-italic; font-size: 18px;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Sinopses
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item text-danger font-italic;" href="#">Livros</a>
-                  <a class="dropdown-item text-danger font-italic;" href="#">Filmes</a>
+                  <a class="dropdown-item text-danger font-italic;" href="#SinopsesLivros">Livros</a>
+                  <a class="dropdown-item text-danger font-italic;" href="#SinopsesFilmes">Filmes</a>
                 </div>
             </li>
           </ul>
@@ -50,7 +50,7 @@
 <!--/Menu-->
 
 <!--Carousel-->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" id="Home">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -102,19 +102,19 @@
 <div class="container">
 <div class="row mt-5 mb-5">
     <div class="col-sm-6">
-      <div class="card border-danger rounded bg-light">
+      <div class="card border-danger rounded bg-light" id="SobreAAutora">
         <div class="card-body">
           <h3 class="card-title text-danger">"Deixe outras canetas se debruçarem sobre culpa e miséria." - Jane Austen</h3>
-          <p class="card-text" style="text-align: justify-center;">Jane Austen nasceu em 16 de dezembro de 1775, em Steventon, na Inglaterra. Pouco se sabe de detalhes sobre sua vida. Após sua morte, sua irmã Cassandra acabou queimando grande parte da 
+          <p class="card-text text-center">Jane Austen nasceu em 16 de dezembro de 1775, em Steventon, na Inglaterra. Pouco se sabe de detalhes sobre sua vida. Após sua morte, sua irmã Cassandra acabou queimando grande parte da 
             correspondência da autora ou eliminando partes de algumas de suas cartas. Porém, o que se pode concluir é que Austen era uma mulher bastante inteligente.</p>
-            <p>A única imagem que existe da autora é a de um retrato que Cassandra pintou e que, segundo várias fontes, não corresponde com a figura de Austen. De acordo com Reef, relatos de conhecidos 
+          <p class="text-center">A única imagem que existe da autora é a de um retrato que Cassandra pintou e que, segundo várias fontes, não corresponde com a figura de Austen. De acordo com Reef, relatos de conhecidos 
             descrevem a autora de Orgulho e Preconceito como “uma boneca”, com bom humor e “uma boa dose de cor na face”, outros dizem que ela tinha “bochechas cheias e arredondadas”. Já um de seus vizinhos 
             afirma que ela era “uma pessoa alta e seca, com as maçãs do rosto muito salientes”.</p>
-            <p>Ela era filha de um clérigo e fazia parte de uma família grande — tinha seis irmãos e uma irmã. Seu irmão Henry era com quem a autora tinha mais afinidade, além de Cassandra. 
+          <p class="text-center">Ela era filha de um clérigo e fazia parte de uma família grande — tinha seis irmãos e uma irmã. Seu irmão Henry era com quem a autora tinha mais afinidade, além de Cassandra. 
             Mais tarde, ele seria seu agente. O pai da autora valorizava a educação de seus filhos. Por isso, aos sete anos de idade, Austen e sua irmã partiram para Oxford, para estudar.</p>
-            <p>No entanto, precisaram voltar para Steventon pouco tempo depois, já que adoeceram ao contrair tifo, em 1783. Com nove anos de idade, a escritora e sua irmã começaram a estudar 
+          <p class="text-center">No entanto, precisaram voltar para Steventon pouco tempo depois, já que adoeceram ao contrair tifo, em 1783. Com nove anos de idade, a escritora e sua irmã começaram a estudar 
             em The Abbey School, uma escola para meninas, na cidade de Reading. Porém, devido a dificuldades financeiras, não puderam continuar a frequentar as aulas. Passaram, então, a estudar em casa.</p>
-            <p>Com 12 anos, a autora já escrevia textos literários. Mais tarde, foi cortejada, no final de 1795, pelo irlandês Thomas Lefroy (1776-1869). Mas, por questões financeiras, ele preferiu se casar 
+          <p class="text-center">Com 12 anos, a autora já escrevia textos literários. Mais tarde, foi cortejada, no final de 1795, pelo irlandês Thomas Lefroy (1776-1869). Mas, por questões financeiras, ele preferiu se casar 
             com uma jovem rica. Aproximadamente dois anos depois, em 1797, o pai de Jane Austen mostrou a primeira versão de Orgulho e preconceito a um editor, que se a recusou publicar a obra.</p>
           <div>
             <iframe width="520" height="315" src="https://www.youtube.com/embed/SirbSITcT5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -126,15 +126,15 @@
       <div class="card border-danger rounded bg-light">
         <div class="card-body">
           <h3 class="card-title text-danger">Características da obra de Jane Austen</h3>
-          <p class="card-text" style="text-align: justify-center;">Quando o pai de Jane faleceu, em 1805, ela, sua mãe e a irmã passaram a depender dos homens da família. Assim, no ano seguinte, foram morar com Frank (seu irmão) e sua esposa, em Southampton. 
+          <p class="card-text text-center">Quando o pai de Jane faleceu, em 1805, ela, sua mãe e a irmã passaram a depender dos homens da família. Assim, no ano seguinte, foram morar com Frank (seu irmão) e sua esposa, em Southampton. 
             Até que, em 1809, Edward, outro irmão da autora, lhes ofereceu uma casa em Chawton.</p>
-            <p>Dois anos depois, em 1811, Jane Austen publicou o romance Razão e sensibilidade. Mas a autora não revelou seu nome; em vez disso, publicou o livro com a inscrição “por uma senhora”. Anos mais tarde, 
+          <p class="text-center">Dois anos depois, em 1811, Jane Austen publicou o romance Razão e sensibilidade. Mas a autora não revelou seu nome; em vez disso, publicou o livro com a inscrição “por uma senhora”. Anos mais tarde, 
             por volta de 1815, ela já tinha alguns livros publicados, porém ainda não assinava suas obras.</p>
-            <p>No fim de 1816, Austen começou a apresentar sintomas de uma doença desconhecida à época, provavelmente o que se conhece como doença de Addison: “Escrever me parece impossível, com a cabeça cheia de quartos
+          <p class="text-center">No fim de 1816, Austen começou a apresentar sintomas de uma doença desconhecida à época, provavelmente o que se conhece como doença de Addison: “Escrever me parece impossível, com a cabeça cheia de quartos
             de carneiro e doses de ruibarbo”, escreveu ela à sua irmã, Cassandra. Ela e a irmã se mudaram para Winchester em busca de tratamento médico. Ainda assim, por muitos meses insistiu que estava melhor, começando
             inclusive um novo romance: Os Irmãos. O livro falava de várias famílias que viviam à beira-mar e nunca foi finalizado. A autora morreu em 18 de julho de 1817, com 41 anos de idade.
             Após a morte da autora, os Austen mudaram o nome da história nunca finalizada para Sanditon.</p>
-            <p>Jane Austen possui uma escrita de transição entre o Romantismo e o Realismo ingleses. Seus romances são caracterizados pelo tom irônico, além da crítica social. As personagens principais são femininas,
+          <p class="text-center">Jane Austen possui uma escrita de transição entre o Romantismo e o Realismo ingleses. Seus romances são caracterizados pelo tom irônico, além da crítica social. As personagens principais são femininas,
             onde é retratado o universo das mulheres do final do século XVIII e início do XIX. Apesar de seus livros falarem sobre o amor, o idealismo romântico é atenuado pela frustração amorosa e pelos elementos da 
             cotidiana realidade doméstica da burguesia da época. Assim, entra em discussão o casamento, mas também a dependência das mulheres em relação a ele.</p>
           <div>
@@ -157,46 +157,278 @@
 
 <!--Texto e imagem: sinopses livros-->
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card border-danger rounded bg-light" style="width: 18rem;">
-                <div class="card-header text-danger">
-                  As Principais Obras da Autora
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Amor e Amizade (1790)</li>
-                  <li class="list-group-item">Lady Susan (1974)</li>
-                  <li class="list-group-item">Razão e Sensibilidade (1811)</li>
-                  <li class="list-group-item">Orgulho e Preconceito (1813)</li>
-                  <li class="list-group-item">Mansfield Park (1814)</li>
-                  <li class="list-group-item">Emma (1815)</li>
-                  <li class="list-group-item">A Abadia de Northanger (1817)</li>
-                  <li class="list-group-item">Persuasão (1817)</li>
-                </ul>
-            </div>
+<div class="container" id="SinopsesLivros">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card border-danger rounded bg-light">
+        <div class="card-body">
+          <h5 class="card-title text-danger text-center">Pride and Prejudice "Orgulho e Preconceito"</h5>
+          <p class="card-text text-center">Orgulho e Preconceito (Pride and Prejudice) é um romance da escritora britânica Jane Austen. O romance foi escrito entre os anos 1796 e 1797, 
+          e publicado pela primeira vez em 1813. Orgulho e Preconceito tem como cenário a burguesia inglesa do início do século XIX.  Originalmente, a obra foi intitulada 
+          de “First Impressions” (Primeiras Impressões), mas após a revisão dos escritos, Jane Austen denominou o romance como “Pride and Prejudice”.</p>
+          <p class="text-center">A obra conta a história de uma família britânica em volta do protagonismo de Elizabeth Bennet, uma das cinco irmãs da família.
+          Esse romance critica a sociedade burguesa inglesa da época pelas relações ocasionadas pelo amor e dinheiro que eram movidas pela promiscuidades e mesquinhares 
+          escondida pela mesma sociedade. Orgulho e Preconceito é um clássico da literatura inglesa estudado em escolas e universidades estrangeiras. Tanto que a autora Jane Austen 
+          é considerada a escritora inglesa mais importante na Inglaterra depois de William Shakespeare.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
         </div>
+      </div>
+      <img class="img-fluid" alt="Imagem responsiva" src="https://cdl-static.s3-sa-east-1.amazonaws.com/covers/gg/9788563560155/orgulho-e-preconceito.jpg">
     </div>
+    <div class="col-sm-6">
+      <div class="card border-danger rounded bg-light">
+        <div class="card-body">
+          <h5 class="card-title text-danger text-center">Orgulho e Preconceito: principais personagens</h5>
+          <p class="card-text text-center">Elizabeth Bennet: apelidada de “Lizzie”, é a protagonista da história. Ela é uma jovem bela, culta e inteligente deslocada de seu tempo. As mulheres da época eram 
+          criadas para serem esposas e mães, mas Elizabeth se recusava a se casar se não fosse por amor. Além disso, Lizzie possui um senso forte de independência.</p>
+          <p class="text-center">Jane Bennet: é a irmã mais velha de Elizabeth. É descrita como uma jovem muito bela, tímida, recatada, sonhadora e doce. Ela e Elisabeth são bem próximas
+          e confidentes.</p>
+          <p class="text-center">Mary: uma das irmãs Bennet que tem obsessão pela leitura e cultiva o intelecto. Devido a qualidade que herdou do pai, ela é descrita como uma moça ajuizada
+          e de grande sabedoria.</p>
+          <p class="text-center">Kitty e Lydia: as caçulas das irmãs Bennet, elas não têm muito protagonismo no romance. As duas são bem próximas e viviam a cochichar segredos. São consideradas
+          as duas que costumam arranjar problemas.</p>
+          <p class="text-center">Sr. e Sra. Bennet: pais das cinco mulheres, um casal feliz, mas que se preocupavam muito em casar bem as filhas. Enquanto o pai é mais descontraído, sarcástico
+          e também preocupado com o futuro financeiro das meninas, Sra. Bennet é a que mais gasta energia para casar as filhas.</p>
+          <p class="text-center">Mr. Bingley: descrito como um jovem muito rico e de boa família, é um bom rapaz, mas que é facilmente influenciado pela opinião alheia. Jovem com quem 
+          Sra. Bennet tenta fazer com se case com sua filha Jane.</p>
+          <p class="text-center">Mr. Darcy: é um grande amigo de Mr. Bingley que o acompanhou na viagem à Netherfield, onde conheceu Elizabeth. A princípio ele é descrito como um homem arrogante
+          e superior, mas ao decorrer da trama com a convivência com Elizabeth e as irmãs, sua real personalidade vai sendo revelada.</p>
+          <p class="text-center">Caroline Bingley: irmã de Mr. Bingley que é contra o romance entre ele e Jane Bennet por preconceito a classe social da família Bennet. É uma jovem bonita, descrita
+          como sendo arrogante e que acha que o sobrenome da sua família não deve ser misturado com de famílias de classes sociais inferiores.</p>
+          <p class="text-center">Lady Catherine de Bourgh: tia do Mr. Darcy, é uma aristocrata poderosa e orgulhosa e que humilha aqueles que a rodeiam. Ela tenta persuadir contra o relacionamento de Mr. Darcy com Elizabeth Bennet.</p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-
+<div class="container">
+  <div class="row mb-5 mt-5">
+    <div class="col-md-6">
+      <div class="card border-danger rounded bg-light" style="width: 18rem;">
+        <div class="card-header text-danger text-center">
+        Principais Obras da Autora
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-center">Amor e Amizade (1790)</li>
+          <li class="list-group-item text-center">Lady Susan (1974)</li>
+          <li class="list-group-item text-center">Razão e Sensibilidade (1811)</li>
+          <li class="list-group-item text-center">Orgulho e Preconceito (1813)</li>
+          <li class="list-group-item text-center">Mansfield Park (1814)</li>
+          <li class="list-group-item text-center">Emma (1815)</li>
+          <li class="list-group-item text-center">A Abadia de Northanger (1817)</li>
+          <li class="list-group-item text-center">Persuasão (1817)</li>         
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img class="img-fluid" alt="Imagem responsiva" src="https://romanceshistoricos.com.br/wp-content/uploads/2019/03/IMG_1006.jpg">
+    </div>
+  </div>
+</div>
 <!--/Texto e imagem: sinopse livros-->
 
+<!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid text-danger text-italic" style="background-color: #0a3d62;">
+  <div class="container">
+    <h1 class="display-4" style="text-align: center">Sinopses Filmes</h1>
+  </div>
+</div>
+<!--/Jumbotron-->
+
 <!--Texto e imagem/video: sinopse filmes-->
+
+<div class="container" id="SinopsesFilmes">
+  <div class="row mt-5 mb-5">
+      <div class="col-sm-6">
+        <div class="card border-danger rounded bg-light">
+          <div class="card-body">
+            <h3 class="card-title text-danger text-center">Adaptações do romance: Orgulho e Preconceito</h3>
+            <p class="card-text text-center">Orgulho e Preconceito foi adaptado quatro vezes para o cinema, uma em 1940, outra em 2003 e mais duas em 2004 e 2005.</p>
+            <p class="text-center">O romance também ganhou um a paródia no cinema, “Orgulho e Preconceito e Zumbis” (Pride and Prejudice and Zombies), em 2016.</p>
+            <p class="text-center">O longa de 2005 foi o único que teve grande sucesso. Foi estreado pela atriz Keira Knightley, dirigida por Joe Wright e roteiro por Deborah Moggach.
+            Essa adaptação foi indicada ao Oscar de melhor atriz para Keira Knightley, melhor figurino, melhor trilha sonora e melhor direção. Além disso, o longa 
+            foi indicado ao Globo de Ouro por melhor filme e melhor atriz.</p>
+            <p class="text-center">O sucesso foi tanto, que a capa do livro passou a ser integrada pela imagem dos personagens interpretados no cinema de Elizabeth Bennet e Mr. Darcy.</p>
+            <div>
+              <img width="500" height="500" src="https://upload.wikimedia.org/wikipedia/pt/8/85/Pride_and_Prejudice_2005.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card border-danger rounded bg-light">
+          <div class="card-body">
+            <h3 class="card-title text-danger text-center">Sinopse do Filme Orgulho e Preconceito (2005)</h3>
+            <p class="card-text text-center">Inglaterra (1797) as cinco irmãs Bennet - Elizabeth (Keira Knightley), Jane (Rosamund Pike), Lydia (Jena Malone), Mary (Talulah Riley)
+            e Kitty (Carey Mulligan) - foram criadas por uma mãe (Brenda Blethyn) que tinha fixação em lhes encontrar maridos que garantissem seu futuro. Porém Elizabeth deseja ter 
+            uma vida mais ampla do que apenas se dedicar ao marido, sendo apoiada pelo pai (Donald Sutherland).</p> 
+            <p class="card-text text-center">Quando o sr. Bingley (Simon Woods), um solteiro rico, passa a morar em uma mansão vizinha, as irmãs logo ficam agitadas. Jane logo parece 
+            que conquistará o coração do novo vizinho, enquanto que Elizabeth conhece o bonito e esnobe sr. Darcy (Matthew Macfadyen).</p>
+            <p class="card-text text-center">Os encontros entre Elizabeth e Darcy passam a ser cada vez mais constantes, apesar deles sempre discutirem.</p>
+            <div>
+              <iframe width="520" height="315" src="https://www.youtube.com/embed/Ur_DIHs92NM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
 <!--/Texto e imagem/video: filmes-->
 
-<!--Cards vendas-->
-<!--/Cards vendas-->
+<!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid text-danger text-italic" style="background-color: #0a3d62;">
+  <div class="container">
+    <h1 class="display-4" style="text-align: center">Vendas</h1>
+  </div>
+</div>
+<!--/Jumbotron-->
+
+<!--Tabelas: vendas-->
+
+<div class="container">
+<div class="row">
+  <div class="col-md-12">
+    <p class="text-italic"> Segue nas tabelas abaixo as sugestões de sites de compras para adquirir o livro Orgulho e Preconceito, a coleção com 5 ou 7 livros clássicos da Jane Austen,</p>
+    <p class="text-center">Link de streaming para adquirir o filme de 2005.</p>
+  </div>
+</div>
+</div>
+
+
+<div class="container" id="Vendas">
+  <div class="row mt-5 mb-5">
+    <div class="col-md-10">
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Livro</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Loja</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Orgulho e Preconceito</td>
+            <td>R$ 23,80</td>
+            <td><a href="https://www.extra.com.br/Orgulho-e-Preconceito-Jane-Austen-174186/p/174186?utm_medium=cpc&utm_source=google_freelisting&IdSku=174186&idLojista=49376">
+            Extra</a></td> 
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Orgulho e Preconceito</td>
+            <td>R$ 16,90</td>
+            <td><a href="https://www.livrariasfamiliacrista.com.br/orgulho-e-preconceito-capa-dura-jane-austen-1.html">
+            Livrarias Família Cristã</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Orgulho e Preconceito</td>
+            <td>R$ 14,87</td>
+            <td><a href="https://produto.mercadolivre.com.br/MLB-938143771-orgulho-e-preconceito-col-classicos-para-todos-_JM?matt_tool=18956390&utm_source=google_shopping&utm_medium=organic">
+            Mercado Livre</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row mt-5 mb-5">
+    <div class="col-md-10">
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Livro</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Loja</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Coleção Jane Austen: 07 Livros</td>
+            <td>R$ 69,90</td>
+            <td><a href="https://www.livrariasfamiliacrista.com.br/colec-o-7-livros-grandes-classicos-de-jane-austen.html">
+            Livrarias Família Cristã</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Coleção Jane Austen: 07 Livros (Capa Dura)</td>
+            <td>R$ 104,87</td>
+            <td><a href="https://www.livrariasfamiliacrista.com.br/box-7-livros-capa-dura-colec-o-completa-classicos-de-jane-austen.html">
+            Livrarias Família Cristã</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Coleção Jane Austen: 05 Livros</td>
+            <td>R$ 53,74</td>
+            <td><a href="https://www.extra.com.br/colecao-especial-jane-austen-box-com-5-livros-1512008553/p/1512008553?utm_medium=cpc&utm_source=google_freelisting&IdSku=1512008553&idLojista=17314">
+            Extra</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row mt-5 mb-5">
+    <div class="col-md-10">
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Filme</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Loja</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Filme: Orgulho e Preconceito (Streaming)</td>
+            <td>Escolher uma Assinatura</td>
+            <td><a href="https://www.netflix.com/br/title/70032594">
+            Netflix</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Filme: Orgulho e Preconceito (Streaming)</td>
+            <td>Alugar: R$ 9,90  e  Comprar: 24,90</td>
+            <td><a href="https://www.youtube.com/watch?v=RYKGTXXFF5A">
+            Youtube</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Filme: Orgulho e Preconceito (DVD)</td>
+            <td>R$ 59,90</td>
+            <td><a href="https://www.amazon.com.br/Dvd-Orgulho-e-Preconceito/dp/B082VNR6HJ/ref=asc_df_B082VNR6HJ/?tag=googleshopp00-20&linkCode=df0&hvadid=395364720457&hvpos=&hvnetw=g&hvrand=4806649550298142904&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-1040468576283&psc=1">
+            Amazon</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<!--/Tabelas: vendas-->
+
+<!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid text-danger text-italic" style="background-color: #0a3d62;">
+  <div class="container">
+    <h1 class="display-4" style="text-align: center">Contato</h1>
+  </div>
+</div>
+<!--/Jumbotron-->
 
 <!--Formulário: contatos-->
-<div class="row">
+<div class="row" id="Contato">
     <div class="col-md-12">
-        <h4 class="text-center text-danger mt-5 mb-5">Solicite Novas Sinopses da Jane Austen ou Outros Autores!</h4>
+        <h4 class="text-center text-danger mt-5 mb-5">Solicite Novas Sinopses da Jane Austen ou de Outros Autores!</h4>
     </div>
 </div>
 <div class="container">
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 text-danger">
         <form>
             <div class="form-group">
               <label for="exampleFormControlInput1">Endereço de E-mail</label>
@@ -206,6 +438,7 @@
               <label for="exampleFormControlTextarea1">Mensagem</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
+            <button class="btn btn-outline-danger my-2 my-sm-0 text-danger" type="submit">Enviar</button>
           </form>
     </div>
     <div class="col-md-6">
@@ -224,7 +457,6 @@
 </div>
 
 <!--/Rodapé: footer e redes sociais-->
-
 
 <!--Scripts necessários para utilização dos códigos JS do Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
